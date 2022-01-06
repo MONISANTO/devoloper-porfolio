@@ -11,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 10%;
 }
 .half-paragraph{
     width: 55%;
@@ -36,5 +37,18 @@ section{
     background-image: url(image/top\ corner\ bg.png);
     background-repeat: no-repeat;
 }
+.ORDER-NOW{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(196, 210, 247), rgb(171, 202, 241));
+    padding: 1% 2%;
+    border-radius: 10%;
+    color: rgb(7, 5, 6);
+   font-weight: 700;
+  
 
-
+}
+.section-2{
+    background-image: url(image/bottom\ bg.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+}
